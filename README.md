@@ -18,13 +18,13 @@ curl -O -J -L https://osf.io/c7qm6/download
 ### test data
 
 test data was in `osf` as well: https://osf.io/t6nhm/
+download using [osfclient](https://github.com/osfclient/osfclient)
 
 ```bash
 pip install osfclient
-cd /n/holylfs/LABS/informatics/mtang/projects
-mkdir clearmap_test; cd clearmap_test
 osf -p t6nhm clone
 
+# unzip the data, data was in .7z format
 conda install -c bioconda p7zip
 
 # x will maintain the folder structure, and unzip 001 will unzip all the other 002,003..
