@@ -33,4 +33,6 @@ conda install -c bioconda p7zip
 7za x haloperidol.7z.001
 7za x saline.7z.001
 
+## replace the spaces in the file names with -
+brename -p " " -r "-" -d
 ```
